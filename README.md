@@ -2,11 +2,18 @@
 # Background
 
 
-We hypothesized that our protein of interest, ILF3, binds to ADAR1 and regulates its enzymatic activity. ADAR1 catalyzes adenosine-to-inosine (A-to-I) conversions in double-stranded RNAs. To test this hypothesis, we used a degron system to degrade ILF3 for 24 hours, followed by stranded RNA sequencing.
+We hypothesized that our protein of interest, ILF3, binds to ADAR1 and regulates its enzymatic activity.
+ADAR1 catalyzes adenosine-to-inosine (A-to-I) conversions in double-stranded RNAs.
+To test this hypothesis, we used a degron system to degrade ILF3 for 24 hours, followed by stranded RNA sequencing.
+
+
 Experimental Design
 • Treatment conditions: Control (DMSO-treated) vs. ILF3-degraded (dTAG-treated)
+
 • Replicates: Two biological replicates per condition
+
 • Data: Stranded RNA-seq FASTQ files 
+
 # Analysis Approach
 
 Since inosines are structurally similar to guanosines, RNA editing events appear as A-to-G mismatches in sequencing data. We used JACUSA2 with stranded analysis to:
