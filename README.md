@@ -1,4 +1,4 @@
-# Task 1: A-to-I RNA Editing Analysis from Bulk RNA-Sequencing Data
+# A-to-I RNA Editing Analysis from Bulk RNA-Sequencing Data
 # Background
 
 
@@ -14,9 +14,9 @@ Since inosines are structurally similar to guanosines, RNA editing events appear
 2. Calculate the ratio of edited vs. non-edited reads for each event
 3. Perform statistical comparison using Wilcoxon test
 
-# 2. Complete code and/or pipeline used for the analysis and figure generation
+# Complete code and/or pipeline used for the analysis and figure generation
 # ILF3 / A-to-I Editing & H3K27ac Super-Enhancer Analysis  
-# the raw fastq files were processed using the following scripts:
+# The raw fastq files were processed using the following scripts:
 - fastqc.sh
 - Trim_and_qc.sh
 - STAR_align.sh
